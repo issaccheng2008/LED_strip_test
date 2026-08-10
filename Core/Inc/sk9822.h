@@ -4,7 +4,7 @@
 #include "stm32h7xx_hal.h"
 
 /* Change this value if the connected strip has a different pixel count. */
-#define SK9822_LED_COUNT                 144U
+#define SK9822_LED_COUNT                 35U
 
 /* Low-power test settings: brightness is 1/31 and each active color is 64/255. */
 #define SK9822_TEST_GLOBAL_BRIGHTNESS    1U
